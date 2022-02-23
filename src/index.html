@@ -105,14 +105,25 @@
             font-size: 14px;
             font-weight: normal;
             margin: 0 0 25px 0;
+            list-style: none;
+            margin-left: 10px;
         }
         p li,
         ul li,
         ol li {
-            list-style-position: inside;
-            margin-left: 5px;
+            list-style-position: outside;
+            padding-left: 16px; /* or margin */
+            position: relative;
         }
-
+        li::before {
+            content: "\2022";
+            color: #75787B;
+            display: inline-block;
+            width: 8px;
+            position: absolute;
+            margin-left: -25px;
+            top: 3px;
+        }
         a {
             color: #3498db;
             text-decoration: underline;
@@ -239,16 +250,16 @@
                                             For adult patients with symptomatic anaemia of CKD, EVRENZO is like a breath of fresh air, at high altitude
                                         </p>
                                         <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
-                                            Anaemia is a common complication of chronic kidney disease3 which can leave patients feeling tired, weak and breathless.<sup>4</sup>
+                                            Anaemia is a common complication of chronic kidney disease<sup>3</sup> which can leave patients feeling tired, weak and breathless.<sup>4</sup>
                                         </p>
                                         <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
                                             But the discovery of the HIF (hypoxia-inducible factor) pathway, which stimulates erythropoiesis when oxygen levels fall, has opened up a new approach to treating anaemia of CKD.<sup>1,5</sup>
                                         </p>
                                         <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
-                                            EVRENZO (roxadustat) is a first-in-class HIF-PH inhibitor5 which mimics the body’s natural response to hypoxia.<sup>1</sup>
+                                            EVRENZO (roxadustat) is a first-in-class HIF-PH inhibitor<sup>5</sup> which mimics the body’s natural response to hypoxia.<sup>1</sup>
                                         </p>
                                         <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
-                                            By stimulating a coordinated erythropoietic response,1,2 EVRENZO helps
+                                            By stimulating a coordinated erythropoietic response,<sup>1,2</sup> EVRENZO helps
                                             adult patients with symptomatic anaemia of CKD to reach and maintain their target Hb levels.<sup>2</sup>
                                         </p>
 
@@ -278,11 +289,19 @@
                                         </p>
                                         <p style="font-size:14px;line-height: 22px;color:#75787B;margin:0 !important;">
                                             <b style="color: #007A33">EVRENZO provides:</b><br/>
-                                            •	Proven Hb efficacy,<sup>6</sup> with a reduced use of IV iron compared with ESA<sup>6</sup><br/>
-                                            •	No increase in risk of cardiovascular events compared with ESA in patients in
-                                            NDD-CKD and IDD-CKD<sup>†*1</sup><br/>
-                                            •	The convenience of an oral tablet taken three times per week on
-                                            non-consecutive days<sup>1</sup><br/>
+                                            <ul style="padding-left: 0;color:#75787B;">
+                                                <li>
+                                                    Proven Hb efficacy,<sup>6</sup> with a reduced use of IV iron compared with ESA<sup>6</sup><br/>
+                                                </li>
+                                                <li>
+                                                    No increase in risk of cardiovascular events compared with ESA in patients in
+                                                    NDD-CKD and IDD-CKD<sup>†*1</sup><br/>
+                                                </li>
+                                                <li>
+                                                    The convenience of an oral tablet taken three times per week on
+                                                    non-consecutive days<sup>1</sup><br/>
+                                                </li>
+                                            </ul>
                                         </p>
                                         <br/><br/>
                                         <p style="font-size:12px;line-height: 16px;color:#75787B;margin:0 !important;">
@@ -322,14 +341,14 @@
                         <tr>
                             <td style="border: 1px solid gray;padding: 25px">
                                 <p style="font-size:10px; line-height: 18px;margin: 0">
-                                    Adverse events should be reported. Reporting forms and information can be found at www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store. Adverse events should also be reported to Astellas Pharma Ltd. on 0800 783 5018.
+                                    Adverse events should be reported. Reporting forms and information can be found at <a href="https://www.mhra.gov.uk/yellowcard" target="_blank" style="color: #75787B;text-decoration: none">www.mhra.gov.uk/yellowcard</a> or search for MHRA Yellow Card in the Google Play or Apple App Store. Adverse events should also be reported to Astellas Pharma Ltd. on 0800 783 5018.
                                 </p>
                             </td>
                         </tr>
 
                         <tr>
                             <td>
-                                <p style="font-size:10px; line-height: 18px;color:#75787B;margin-top: 25px">
+                                <p style="font-size:10px; line-height: 18px;color:#75787B;margin: 25px 0 25px 0 !important;">
                                     The hyperlinks on this page will take you to non-Astellas websites.
                                     Astellas does not endorse or accept liability for sites controlled by third parties.
                                     To arrange a call with an Astellas representative, please use the contact details below.
@@ -337,7 +356,7 @@
                                 <p style="font-size:10px; line-height: 18px;color:#75787B;">
                                     Sincerely,<br/>
                                     Astellas<br/>
-                                    marketing.gb@astellas.com
+                                    <a href="mailto:marketing.gb@astellas.com" style="color: #75787B;text-decoration: none">marketing.gb@astellas.com</a>
                                 </p>
                                 <p style="font-size:10px; line-height: 18px;color:#75787B;">
                                     *Please see EVRENZO SmPC for further information on CV and mortality risk.
