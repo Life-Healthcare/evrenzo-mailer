@@ -1,0 +1,16 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bin/build.js"
+  },
+  "dependencies": {
+    "css-inline-tool": "^1.0.1",
+    "html-minifier": "^4.0.0",
+    "mime-types": "^2.1.26"
+  },
+  "author": "",
+  "license": "ISC"
+}
