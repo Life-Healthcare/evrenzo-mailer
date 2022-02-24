@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Evrenzo</title>
+    <style>
+        @font-face {
+            font-family: TradeGothicBoldExt;
+            src: url("https://fv-emails.s3.eu-west-1.amazonaws.com/evrenzo/fonts/TradeGothicLTStd-BoldExt.woff") format("woff"),
+            url("https://fv-emails.s3.eu-west-1.amazonaws.com/evrenzo/fonts/TradeGothicLTStd-BoldExt.otf") format("truetype"),
+            url("https://fv-emails.s3.eu-west-1.amazonaws.com/evrenzo/fonts/TradeGothicLTStd-BoldExt.woff2") format("woff2");
+        }
+
+        /* -------------------------------------
+            GLOBAL RESETS
+        ------------------------------------- */
+
+        /*All the styling goes here*/
+
+        img {
+            border: none;
+            max-width: 100%;
+        }
+
+
+        body {
+            background-color: transparent;
+            font-family: Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: separate;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            width: 100%; }
+        table td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            vertical-align: top;
+        }
+
+        /* -------------------------------------
+            BODY & CONTAINER
+        ------------------------------------- */
+
+        .body {
+            background-color: #f6f6f6;
+            width: 100%;
+        }
+
+        /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+        .container {
+            display: block;
+            margin: 0 auto !important;
+            /* makes it centered */
+            max-width: 580px;
+            padding: 10px;
+            width: 580px;
+        }
+
+        /* This should also be a block element, so that it will fill 100% of the .container */
+        .content {
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 10px;
+        }
+
+        /* -------------------------------------
+            HEADER, FOOTER, MAIN
+        ------------------------------------- */
+        .main {
+            background: #ffffff;
+            border-radius: 3px;
+            width: 100%;
+        }
+
+        .header {
+            background-image: url("https://fv-emails.s3.eu-west-1.amazonaws.com/evrenzo/header_background.png");
+            background-size: cover;
+            padding: 20px 40px;
+        }
+
+        .wrapper {
+            box-sizing: border-box;
+            padding: 20px 40px;
+        }
+
+
+        /* -------------------------------------
+            TYPOGRAPHY
+        ------------------------------------- */
+
+        h1 {
+            font-size: 35px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        p,
+        ul,
+        ol {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0 0 25px 0;
+            list-style: none;
+
+        }
+        ul {
+            margin-left: 10px;
+        }
+        p li,
+        ul li,
+        ol li {
+            list-style-position: outside;
+            padding-left: 16px; /* or margin */
+            position: relative;
+        }
+        li::before {
+            content: "-";
+            color: #75787B;
+            display: inline-block;
+            width: 8px;
+            position: absolute;
+            margin-left: -25px;
+            top: 3px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+
+
+
+        /* -------------------------------------
+            RESPONSIVE AND MOBILE FRIENDLY STYLES
+        ------------------------------------- */
+        @media only screen and (max-width: 620px) {
+            table.body h1 {
+                font-size: 28px !important;
+                margin-bottom: 10px !important;
+            }
+            table.body p,
+            table.body ul,
+            table.body ol,
+            table.body td,
+            table.body span,
+            table.body a {
+
+            }
+            table.body .wrapper,
+            table.body .preheader,
+            table.body .header,
+            table.body .prefooter,
+            table.body .footer {
+                padding: 9px !important;
+            }
+            table.body .content {
+                padding: 0 !important;
+            }
+            table.body .container {
+                padding: 0 !important;
+                width: 100% !important;
+            }
+            table.body .main {
+                border-left-width: 0 !important;
+                border-radius: 0 !important;
+                border-right-width: 0 !important;
+            }
+            table.body .btn table {
+                width: 100% !important;
+            }
+            table.body .btn a {
+                width: 100% !important;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+    <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+            <div class="content">
+                <!-- START HEADER -->
+                <div class="preheader" style="background-color: white;color: white;padding: 20px 40px">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <img src="https://fv-emails.s3.eu-west-1.amazonaws.com/evrenzo/logo.png" style="float: left;">
+
+                    </table>
+                </div>
+                <!-- END HEADER -->
+
+                <!-- START CENTERED HEADER WITH BACKGROUND IMAGE -->
+                <table role="presentation" class="main">
+
+                    <!-- START HEADER CONTENT AREA -->
+                    <tr>
+                        <td class="header">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+                                <tr>
+                                    <td>
+                                        <p style="font-size:22px;line-height: 25px;color:#4D4D4F;margin: 20px 0 0 0 !important;font-family: TradeGothicBoldExt, Arial, sans-serif;">
+                                            NEU: Ihre Option zur<br/>
+                                            oralen Behandlung<br/>
+                                            der renalen Anämie<sup>*</sup>
+                                        </p>
+
+                                        <p style="padding-bottom:220px;">
+
+                                        </p>
+
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <!-- END HEADER CONTENT AREA -->
+                </table>
+                <!-- END CENTERED HEADER WITH BACKGROUND IMAGE -->
+
+                <!-- START CENTERED WHITE CONTAINER -->
+                <table role="presentation" class="main">
+
+                    <!-- START MAIN CONTENT AREA -->
+                    <tr>
+                        <td class="wrapper">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+
+                                <tr>
+                                    <td>
+                                        <p style="font-weight:bold;font-size:14px;line-height: 22px;color:#007A33;margin-bottom:20px;">
+                                            EVRENZO™ (Roxadustat) – einfach innovativ<sup>1,2</sup>
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            Sehr geehrter Herr PD Dr. med. Daul,
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            das Management der Anämie bei chronischer Nierenerkrankung (CKD) kann mithilfe des neu zugelassenen HIF-PH-Inhibitors EVRENZO verändert werden.<sup>3</sup> Denn im Gegensatz zu bisherigen Therapien bietet die gezielte Beeinflussung des HIF-Signalwegs die Möglichkeit verschiedene pathophysiologische Prozesse zu adressieren.<sup>4</sup>
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            <a href="#" target="_blank" style="color: #007A33">Link zur Fachinformation</a>
+                                        </p>
+                                        <p style="font-weight:bold;font-size:14px;line-height: 22px;color:#007A33;margin-bottom:0 !important;">
+                                            DOLOMITES
+                                        </p>
+
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            In der Studie wurde die Wirksamkeit und Sicherheit von EVRENZO im
+                                            Vergleich zu Darbepoetin-alfa bei ESA-naiven, nicht dialysepflichtigen (NDD)-Patient:innen geprüft.<sup>5</sup>
+                                        </p>
+
+                                        <p style="font-weight:bold;font-size:14px;line-height: 22px;color:#007A33;margin-bottom:0 !important;">
+                                            Studiendesign<sup>5</sup>
+                                        </p>
+
+                                        <ul style="color:#75787B;padding-left: 0">
+                                            <li>
+                                                616 erwachsene Patient:innen im CKD-Stadium 3-5
+                                                (eGFR < 60 ml/min/1,73m2) und Hb-Wert ≤ 10,5 g/dl (≤ 6,5 mmol/l)
+                                            </li>
+                                            <li>
+                                                Randomisiert in zwei Gruppen:<br/>
+                                                ・ 323 Patient:innen erhielten EVRENZO<br/>
+                                                ・ 293 Patient:innen erhielten Darbepoetin-alfa (i.v. oder s.c.)
+                                            </li>
+                                            <li>
+                                                Bis zu 2 Jahre Behandlung
+                                            </li>
+                                            <li>
+                                                Primärer Endpunkt: das Hb-Ansprechen** innerhalb von 24 Wochen ohne
+                                                Erhalt einer Rescue-Therapie#
+                                            </li>
+                                            <li>
+                                                Sekundäre Endpunkte: u.a. Zeit bis zur ersten i.v. Eisengabe
+                                            </li>
+                                        </ul>
+                                        <p style="font-weight:bold;font-size:14px;line-height: 22px;color:#007A33;margin-bottom:0 !important;">
+                                            ERGEBNISSE
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            <span style="color: #007A33">Primärer Endpunkt</span><br/>
+                                            89,5% der EVRENZO-Patient:innen erzielten ein Hb-Ansprechen im Vergleich zu 78% der Darbepoetin-alfa-Patient:innen. <span style="color: #007A33">(95%-KI der Differenz: 5,66; 17,36%)</span>
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            <a href="#" target="_blank">
+                                                <img src="./img/graph-Abb.1.png" style="">
+                                            </a>
+                                            <a href="#" target="_blank">
+                                                <img src="./img/graph-de-2.png" style="">
+                                            </a>
+
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            <span style="color: #007A33">Abb. 2:</span> Mittlere Hb-Werte bei NDD-Patient:innen ohne ESA-Vortherapie unter EVRENZO und Darbepoetin-alfa im Studienverlauf (Abb. modifiziert nach Barratt et al. 2021<sup>5</sup>)
+                                        </p>
+                                        <p style="font-weight:bold;font-size:14px;line-height: 22px;color:#007A33;margin-bottom:20px;">
+                                            Sekundärer Endpunkt
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            Weniger EVRENZO-Patient:innen benötigten i.v.-Eisen im Vergleich zu Darbepoetin-alfa-Patient:innen (Hazard Ratio [HR]: 0,45 [95%-KI: 0,26; 0,78]; p=0,004).
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            <a href="#" target="_blank">
+                                                <img src="./img/graph-de-3.png" style="">
+                                            </a>
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            <span style="color: #007A33">Abb. 3:</span> Anteil der Patient:innen in beiden Gruppen mit i.v. Eisengabe in Woche 1-36 (Abb. modifiziert nach Barratt et al. 20215).
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            Zur Baseline hatten 56,3% bzw. 51,9% der Patient:innen (EVRENZO- vs. Darbepoetin-alfa- Arm) ausreichende Eisenspeicher.5
+                                        </p>
+                                        <hr/>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            Außerdem war die Anzahl der behandlungsbedingten unerwünschten Ereignisse
+                                            zwischen beiden Gruppen vergleichbar:<sup>5</sup>
+                                        </p>
+
+                                        <p>
+                                            <div style="color: #007A33;position: relative">
+                                                <img src="./img/arrow.png"/>
+                                                <div style="position: absolute;margin-left:50px;op: 50%;transform: translateY(-50%); margin-top: -20px;font-weight: 900">EVRENZO: 91,6%</div>
+
+                                            </div>
+
+                                            <div style="color: #007A33;position: relative">
+                                                <img src="./img/arrow.png"/>
+                                                <div style="position: absolute;margin-left:50px;op: 50%;transform: translateY(-50%); margin-top: -20px;font-weight: 900">Darbepoetin-alfa: 92,5%</div>
+                                            </div>
+                                        </p>
+                                        <p style="font-weight:bold;font-size:14px;line-height: 22px;color:#007A33;margin-bottom:0!important;">
+                                            Die Studie DOLOMITES bietet wertvolle Erkenntnisse über EVRENZO:<sup>5</sup>
+                                        </p>
+
+                                        <ul style="color:#75787B;padding-left: 0">
+                                            <li>
+                                                Hb-Werte wurden in den Zielbereich (10-12 g/dl) angehoben und über 2 Jahre
+                                                aufrechterhalten
+                                            </li>
+                                            <li>
+                                                Die Gabe an i.v.-Eisen war unter EVRENZO reduziert, was auf eine verbesserte
+                                                Eisenaufnahme und -mobilisierung hinweist.<sup>†</sup>
+                                            </li>
+                                            <li>
+                                                Das Sicherheitsprofil ist mit Darbepotein-alfa vergleichbar
+                                            </li>
+
+                                        </ul>
+
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            Sollten Sie weitere Fragen zu EVRENZO haben, wenden Sie sich gerne hier an uns:<br/>
+                                            <a href="https://www.astellas.com/de/kontakt" target="_blank" style="color: #007A33">https://www.astellas.com/de/kontakt</a>
+                                        </p>
+                                        <p style="line-height: 22px;color:#75787B;margin-bottom:20px;">
+                                            Herzliche Gruse und bleiben Sie gesund!<br/>
+                                            Ihr Astellas-Team
+                                        </p>
+                                        <p style="font-size:10px; line-height: 15px;color:#75787B;">
+                                            eGFR = geschätzte glomeruläre Filtrationsrate; ESA = Erythropoese-stimulierende Substanz: i.v. = intravenös;
+                                            KI = Konfidenzintervall; s.c. = subkutan<br/><br/>
+
+                                            † Zur Baseline hatten 56,3% bzw. 51,9% der Patient:innen
+                                            (EVRENZO- vs. Darbepoetin-alfa-Arm) ausreichende Eisenspeicher.5<br/><br/>
+
+                                            * Behandlung erwachsener Patienten mit symptomatischer Anamie bei chronischer Nierenerkrankung (chronic kidney disease, CKD)<br/><br/>
+
+                                            ** definiert als: Hb ≥11,0 g/dl (≥6,8 mmol/l) und Hb CFB (Anderung zur Baseline) von ≥1,0 g/dl (≥0,6) bei Patient:innen mit Hb >8,0 g/dl (>4,9 mmol/l) oder ≥ 2,0 g/dl (≥1,2 mmol/l) bei Hb ≤8,0 g/dl (≤4,9 mmol/l)<br/><br/>
+
+                                            # Rescue-Therapie: Bluttransfusion, Darbepotein-alfa-Therapie in der EVRENZO-Gruppe<br/><br/>
+
+                                            <b>Referenzen:</b><br/>
+                                            1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fachinformation EVRENZOTM, Stand: 08/2021.<br/>
+                                            2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sanghani NS, Haase VH. Adv Chronic Kidney Dis. 2019; 26:253-266.<br/>
+                                            3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del Vecchio L, LocateIIi F. Expert Opin Investig Drugs. 2018; 27:125-133.<br/>
+                                            4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Haase VH. Hemodial Int. 2017; 21:S110-124.<br/>
+                                            5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barratt J et al. Nephrol Dial Transplant. 2021;36:1616-1628.<br/>
+                                        </p>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- END MAIN CONTENT AREA -->
+                </table>
+                <!-- END CENTERED WHITE CONTAINER -->
+
+
+                <!-- START PRE FOOTER -->
+                <div class="prefooter" style="background-color: #fff;color: #75787B;padding: 0 39px 10px 39px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+
+                                <p style="font-size:10px; line-height: 18px;color:#75787B;margin:0 !important;">
+                                    Astellas Pharma GmbH<br/>
+                                    Ridlerstraße 57 I 80339 München<br/>
+                                    <a href="mailto:info.de@astellas.com" style="color: #75787B;text-decoration: none">info.de@astellas.com</a> I <a href="www.astellas.com/de/" target="_blank" style="color: #75787B;text-decoration: none">www.astellas.com/de/</a>
+                                </p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!-- END PRE FOOTER -->
+
+                <!-- START FOOTER -->
+                <div class="footer" style="background-color: #fff;color: white;padding: 0 40px 20px 40px">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <img src="./img/Astellas-logo.png" style="float: left;">
+                            </td>
+                            <td style="text-align: right;vertical-align: bottom;">
+                                <p style="font-size:10px; line-height: 18px;color:#75787B;margin:0 !important;">
+                                    EVZ_2022_0007_DE | Erstellt: Mrz 2022
+                                </p>
+
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <!-- END FOOTER -->
+
+            </div>
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</body>
+</html>
